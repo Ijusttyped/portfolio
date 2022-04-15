@@ -1,0 +1,43 @@
+.cv__container {
+    display: grid;
+    gap: 0.1rem;
+}
+
+.cv__container-heading {
+}
+
+.education__container {
+    color: var(--color-white);
+    display: grid;
+    gap: 0.5rem;
+}
+
+.education__container-item {
+    background-color: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    transition: var(--transition);
+    display: grid;
+    grid-template-columns: 150px auto;
+    text-align: left;
+}
+
+.education__container-item:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.date__text {
+    width: 130px;
+    padding-top: 6px;
+}
+
+.education__container-details {
+    color: var(--color-light);
+}
+
+.institution__name {
+    color: var(--color-light);
+}
