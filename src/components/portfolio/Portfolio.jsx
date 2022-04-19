@@ -29,13 +29,6 @@ const data = [
         title: "Some Sample title 3",
         github: "https://github.com",
         demo: "https://github.com"
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: "Some Sample title 4",
-        github: "https://github.com",
-        demo: "https://github.com"
     }
 ]
 

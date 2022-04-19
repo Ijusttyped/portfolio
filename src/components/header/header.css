@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    /*height: 100vh;*/
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -40,25 +40,25 @@ header {
 
 /* ----------------- Me -------------- */
 
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    /*border-radius: 12rem 12rem 0 0;*/
-    border-radius: 8rem 8rem 0 0;
-    overflow: hidden;
-    /*padding: 5rem 1.5rem 1.5rem 1.5rem;*/
-    padding: 5rem 0.1rem 1.5rem 0.1rem;
-}
+/*.me {*/
+/*    background: linear-gradient(var(--color-primary), transparent);*/
+/*    width: 22rem;*/
+/*    height: 30rem;*/
+/*    position: absolute;*/
+/*    left: calc(50% - 11rem);*/
+/*    margin-top: 4rem;*/
+/*    !*border-radius: 12rem 12rem 0 0;*!*/
+/*    border-radius: 8rem 8rem 0 0;*/
+/*    overflow: hidden;*/
+/*    !*padding: 5rem 1.5rem 1.5rem 1.5rem;*!*/
+/*    padding: 5rem 0.1rem 1.5rem 0.1rem;*/
+/*}*/
 
-.me__image {
-    /*object-fit: cover;*/
-    /*height: fit-content;*/
-    /*width: fit-content;*/
-}
+/*.me__image {*/
+/*    !*object-fit: cover;*!*/
+/*    !*height: fit-content;*!*/
+/*    !*width: fit-content;*!*/
+/*}*/
 
 /* ----------------- Scroll Down -------------- */
 

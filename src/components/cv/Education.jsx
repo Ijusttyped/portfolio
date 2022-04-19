@@ -29,15 +29,16 @@ const edu = [
 const Education = () => {
     return (
         <section id={"education"}>
-            <div className={"container education__container"}>
+            <div className={"container cv_history__container"}>
+                <h2 className={"cv_history__container-heading"}>Education</h2>
                 {
                     edu.map(({id, start, end, qualification, thesis, institution}) => {
                         return (
-                            <article key={id} className={"education__container-item"}>
+                            <article key={id} className={"cv_history__container-item"}>
                                 <div className={"date date__text"}>{start} - {end}</div>
                                 <div>
                                     <h3>{qualification}</h3>
-                                    <div className={"education__container-details"}>
+                                    <div className={"cv_history__container-details"}>
                                         <p>Thesis: {thesis}</p>
                                         <a className={"institution__name"} href={institution["url"]} target={"_blank"}>{institution["name"]}</a>
                                     </div>
