@@ -1,0 +1,12 @@
+.blog__article-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 4rem 5rem;
+    color: var(--color-light);
+}
+
+.blog__article-item p {
+    margin: 1rem;
+}

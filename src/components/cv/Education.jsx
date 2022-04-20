@@ -3,7 +3,6 @@ import React from 'react'
 
 const edu = [
     {
-        "id": 1,
         "start": "October 2020",
         "end": "present",
         "qualification": "MSc. Digital Health",
@@ -14,7 +13,6 @@ const edu = [
         }
     },
     {
-        "id": 2,
         "start": "October 2012",
         "end": "December 2017",
         "qualification": "BSc. Economathematics",
@@ -32,9 +30,9 @@ const Education = () => {
             <div className={"container cv_history__container"}>
                 <h2 className={"cv_history__container-heading"}>Education</h2>
                 {
-                    edu.map(({id, start, end, qualification, thesis, institution}) => {
+                    edu.map(({start, end, qualification, thesis, institution}, index) => {
                         return (
-                            <article key={id} className={"cv_history__container-item"}>
+                            <article key={index} className={"cv_history__container-item"}>
                                 <div className={"date date__text"}>{start} - {end}</div>
                                 <div>
                                     <h3>{qualification}</h3>

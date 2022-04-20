@@ -3,7 +3,6 @@ import React from 'react'
 
 const work = [
     {
-        "id": 1,
         "start": "February 2019",
         "end": "present",
         "position": "Lead Data Science Engineer",
@@ -15,7 +14,6 @@ const work = [
         "type": "IT-Consultancy"
     },
     {
-        "id": 2,
         "start": "October 2018",
         "end": "January 2019",
         "position": "Business Intelligence Analyst",
@@ -27,7 +25,6 @@ const work = [
         "type": "Media"
     },
     {
-        "id": 3,
         "start": "November 2017",
         "end": "March 2018",
         "position": "Python Developer",
@@ -39,7 +36,6 @@ const work = [
         "type": "Fleet Management"
     },
     {
-        "id": 4,
         "start": "February 2017",
         "end": "July 2017",
         "position": "Student Research Assistant for Data Science",
@@ -58,9 +54,9 @@ const Work = () => {
             <div className={"container cv_history__container"}>
                 <h2 className={"cv_history__container-heading"}>Work Experience</h2>
                 {
-                    work.map(({id, start, end, position, responsibility, employer, type}) => {
+                    work.map(({start, end, position, responsibility, employer, type}, index) => {
                         return (
-                            <article key={id} className={"cv_history__container-item"}>
+                            <article key={index} className={"cv_history__container-item"}>
                                 <div className={"date date__text"}>{start} - {end}</div>
                                 <div>
                                     <h3>{position}</h3>
