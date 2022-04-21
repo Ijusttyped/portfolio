@@ -3,46 +3,24 @@ import React from 'react'
 const Gpe = () => {
     return (
         <article className={"blog__article-item"}>
-            <h2>Gender-Neutral Fair Compensation</h2>
+            <h2>What would you earn?</h2>
             <div className={"blog__article-description"}>
+                <h3>Inspiration and Goal</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Aliquam faucibus purus in massa tempor. Vel elit scelerisque mauris
-                    pellentesque. Pharetra convallis posuere morbi leo urna molestie at elementum. Amet mauris commodo
-                    quis imperdiet massa tincidunt. Convallis a cras semper auctor neque. Justo donec enim diam
-                    vulputate ut pharetra sit amet. Auctor neque vitae tempus quam pellentesque. Elementum nisi quis
-                    eleifend quam adipiscing vitae. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut
-                    placerat. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim sit amet venenatis
-                    urna cursus eget nunc. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Cum
-                    sociis natoque penatibus et magnis dis parturient montes. Cursus in hac habitasse platea dictumst.
-                    Posuere urna nec tincidunt praesent semper feugiat. Pellentesque sit amet porttitor eget dolor morbi
-                    non arcu risus. Aliquet eget sit amet tellus cras adipiscing.
+                    During a client project to identify pay gaps between men and women, I got the idea for this project.
+                    The goal is to give you an indication of what salary you can demand for your next job, based on your experience.
                 </p>
+                <h3>The Data</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Aliquam faucibus purus in massa tempor. Vel elit scelerisque mauris
-                    pellentesque. Pharetra convallis posuere morbi leo urna molestie at elementum. Amet mauris commodo
-                    quis imperdiet massa tincidunt. Convallis a cras semper auctor neque. Justo donec enim diam
-                    vulputate ut pharetra sit amet. Auctor neque vitae tempus quam pellentesque. Elementum nisi quis
-                    eleifend quam adipiscing vitae. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut
-                    placerat. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim sit amet venenatis
-                    urna cursus eget nunc. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Cum
-                    sociis natoque penatibus et magnis dis parturient montes. Cursus in hac habitasse platea dictumst.
-                    Posuere urna nec tincidunt praesent semper feugiat. Pellentesque sit amet porttitor eget dolor morbi
-                    non arcu risus. Aliquet eget sit amet tellus cras adipiscing.
+                    The data used for this project can be found <a href={"https://www.kaggle.com/datasets/parulpandey/2020-it-salary-survey-for-eu-region"} target={"_blank"}>here</a>.
+                    An exploratory data analysis with very nice visualizations can be viewed at kaggle: https://www.kaggle.com/code/chanoncharuchinda/it-salary-survey-for-eu-region-2020-visualization. Give credits
                 </p>
+                <h3>Technology</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Aliquam faucibus purus in massa tempor. Vel elit scelerisque mauris
                     pellentesque. Pharetra convallis posuere morbi leo urna molestie at elementum. Amet mauris commodo
-                    quis imperdiet massa tincidunt. Convallis a cras semper auctor neque. Justo donec enim diam
-                    vulputate ut pharetra sit amet. Auctor neque vitae tempus quam pellentesque. Elementum nisi quis
-                    eleifend quam adipiscing vitae. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut
-                    placerat. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim sit amet venenatis
-                    urna cursus eget nunc. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Cum
-                    sociis natoque penatibus et magnis dis parturient montes. Cursus in hac habitasse platea dictumst.
-                    Posuere urna nec tincidunt praesent semper feugiat. Pellentesque sit amet porttitor eget dolor morbi
-                    non arcu risus. Aliquet eget sit amet tellus cras adipiscing.
+                    quis imperdiet massa tincidunt. Convallis a cras semper auctor neque.
                 </p>
             </div>
         </article>
