@@ -61,9 +61,12 @@ const Work = () => {
                                 <div>
                                     <h3>{position}</h3>
                                     <div className={"cv_history__container-details"}>
-                                        <p>{responsibility}</p>
-                                        <a className={"institution__name"} href={employer["url"]}
-                                           target={"_blank"}>{employer["name"]}</a>, {type}
+                                        <p><b>Responsibility:</b> {responsibility}</p>
+                                        <p>
+                                            <b>Employer: </b>
+                                            <a className={"institution__name"} href={employer["url"]}
+                                               target={"_blank"}>{employer["name"]}</a>, {type}
+                                        </p>
                                     </div>
                                 </div>
                             </article>

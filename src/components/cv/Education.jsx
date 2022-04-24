@@ -37,8 +37,11 @@ const Education = () => {
                                 <div>
                                     <h3>{qualification}</h3>
                                     <div className={"cv_history__container-details"}>
-                                        <p>Thesis: {thesis}</p>
-                                        <a className={"institution__name"} href={institution["url"]} target={"_blank"}>{institution["name"]}</a>
+                                        <p><b>Thesis:</b> {thesis}</p>
+                                        <p>
+                                            <b>Institution: </b>
+                                            <a className={"institution__name"} href={institution["url"]} target={"_blank"}>{institution["name"]}</a>
+                                        </p>
                                     </div>
                                 </div>
                             </article>
