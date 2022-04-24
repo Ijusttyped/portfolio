@@ -13,7 +13,7 @@ const data = [
         image: IMG1,
         title: "Fair Compensation",
         github: "https://github.com",
-        demo: "/blog/gpe"
+        demo: "/blog/compensation"
     },
     {
         image: IMG2,

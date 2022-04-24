@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Gpe = () => {
+const Compensation = () => {
     return (
         <article className={"blog__article-item"}>
             <h2>What would you earn?</h2>
@@ -27,4 +27,4 @@ const Gpe = () => {
     )
 }
 
-export default Gpe
+export default Compensation
