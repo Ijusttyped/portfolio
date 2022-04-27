@@ -11,19 +11,20 @@
 }
 
 :root {
-    --color-bg: #0B1320;
-    --color-bg-variant: #1C3F60;
-    --color-primary: #B1D4E0;
-    --color-primary-variant: #AFC1D0;
-    --color-white: #fff;
-    --color-light: #c0c5ce;
-
-    /*--color-bg: #1f1f38;*/
-    /*--color-bg-variant: #2c2c6c;*/
-    /*--color-primary: #4db5ff;*/
-    /*--color-primary-variant: rgba(77, 181, 255, 0.4);*/
+    /*--color-bg: #0B1320;*/
+    /*--color-bg-variant: #1C3F60;*/
+    /*--color-primary: #B1D4E0;*/
+    /*--color-primary-variant: #AFC1D0;*/
     /*--color-white: #fff;*/
-    /*--color-light: rgba(255, 255, 255, 0.6);*/
+    /*--color-light: #c0c5ce;*/
+
+    --color-bg: #222831;
+    --color-bg-variant: #393E46;
+    --color-primary: #00ADB5;
+    --color-primary-variant: #EEEEEE;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-green-light: #8fc3c5;
 
     --transition: all 400ms ease;
 
@@ -42,7 +43,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    /*background: linear-gradient(to right, var(--color-primary) 0%, var(--color-bg) 100%);*/
+    background: linear-gradient(var(--color-bg) 40%, var(--color-primary));
+    /*background: var(--color-bg);*/
     color: var(--color-white);
     line-height: 1.7;
     /*background-image: url("../src/assets/bg-texture.png");*/
