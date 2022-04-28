@@ -45,7 +45,7 @@ const About = () => {
                         the agile implementation with you. Once the project setup is clear, I dive into the Jupyter notebook
                         swamp and build a stable and sustainable solution out of it.
                     </p>
-                    <a href={"https://calendly.com"} target={"_blank"} className={"btn btn-primary"}>Get in Touch</a>
+                    <a href={"#contact"} className={"btn btn-primary"}>Get in Touch</a>
 
                 </div>
             </div>
