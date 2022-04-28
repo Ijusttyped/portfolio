@@ -13,19 +13,19 @@ const data = [
         image: IMG1,
         title: "Fair Compensation",
         github: "https://github.com",
-        demo: "/blog/compensation"
+        demo:  "/tbd" //"/blog/compensation"
     },
     {
         image: IMG2,
         title: "Medical Image Segmentation",
         github: "https://github.com",
-        demo: "/blog/mis"
+        demo:   "/tbd"  //"/blog/mis"
     },
     {
         image: IMG3,
         title: "Purchase Order Classification",
         github: "https://github.com",
-        demo: "/blog/poclass"
+        demo:   "/tbd"  //"/blog/poclass"
     }
 ]
 
