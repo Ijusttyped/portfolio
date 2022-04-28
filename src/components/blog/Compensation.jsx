@@ -15,7 +15,7 @@ const Compensation = () => {
                 <p>
                     The data used for this project can be found <a
                     href={"https://www.kaggle.com/datasets/parulpandey/2020-it-salary-survey-for-eu-region"}
-                    target={"_blank"}>here</a>.
+                    target={"_blank"} rel={"noreferrer"}>here</a>.
                     An exploratory data analysis with very nice visualizations can be viewed at kaggle:
                     https://www.kaggle.com/code/chanoncharuchinda/it-salary-survey-for-eu-region-2020-visualization.
                     Give credits

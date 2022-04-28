@@ -40,7 +40,7 @@ const Education = () => {
                                         <p><b>Thesis:</b> {thesis}</p>
                                         <p>
                                             <b>Institution: </b>
-                                            <a className={"institution__name"} href={institution["url"]} target={"_blank"}>{institution["name"]}</a>
+                                            <a className={"institution__name"} href={institution["url"]} target={"_blank"} rel={"noreferrer"}>{institution["name"]}</a>
                                         </p>
                                     </div>
                                 </div>

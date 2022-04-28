@@ -65,7 +65,7 @@ const Work = () => {
                                         <p>
                                             <b>Employer: </b>
                                             <a className={"institution__name"} href={employer["url"]}
-                                               target={"_blank"}>{employer["name"]}</a>, {type}
+                                               target={"_blank"} rel={"noreferrer"}>{employer["name"]}</a>, {type}
                                         </p>
                                     </div>
                                 </div>

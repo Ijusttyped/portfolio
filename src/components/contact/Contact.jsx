@@ -24,14 +24,14 @@ const Contact = () => {
                         <MdOutlineEmail className={"contact__option-icon"} />
                         <h4>Email</h4>
                         <h5>contact[at]fernandezrosas.com</h5>
-                        <a href={"mailto:contact@fernandezrosas.com"} target={"_blank"}>Send a message</a>
+                        <a href={"mailto:contact@fernandezrosas.com"} target={"_blank"} rel={"noreferrer"}>Send a message</a>
                     </article>
 
                     <article className={"contact__option"}>
                         <RiTelegramLine className={"contact__option-icon"} />
                         <h4>Telegram</h4>
                         <h5>Marcel</h5>
-                        <a href={"https://t.me/marcelfe"} target={"_blank"}>Send a message</a>
+                        <a href={"https://t.me/marcelfe"} target={"_blank"} rel={"noreferrer"}>Send a message</a>
                     </article>
                 </div>
 

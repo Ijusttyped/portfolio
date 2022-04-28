@@ -6,7 +6,7 @@ import {FaGithub} from "react-icons/fa";
 const Footer = () => {
     return (
         <footer>
-            <a href={"#"} className={"footer__logo"}>MFR</a>
+            <a href={"/#"} className={"footer__logo"}>MFR</a>
 
             <ul className={"permalinks"}>
                 <li><a href={"/#"}>Home</a></li>
@@ -19,8 +19,8 @@ const Footer = () => {
             </ul>
 
             <div className={"footer__socials"}>
-                <a href={"https://linkedin.com"} target="_blank"><BsLinkedin/></a>
-                <a href={"https://github.com"} target="_blank"><FaGithub/></a>
+                <a href={"https://linkedin.com"} target="_blank" rel={"noreferrer"}><BsLinkedin/></a>
+                <a href={"https://github.com"} target="_blank" rel={"noreferrer"}><FaGithub/></a>
             </div>
 
             <div className={"footer__copyright"}>
