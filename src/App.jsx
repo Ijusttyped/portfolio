@@ -4,7 +4,6 @@ import Home from "./components/home/Home";
 import CV from "./components/cv/CV";
 import Blog from "./components/blog/Blog";
 import NoMatch from "./components/nomatch/NoMatch";
-import Compensation from "./components/blog/Compensation";
 
 const App = () => {
 

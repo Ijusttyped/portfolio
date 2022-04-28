@@ -1,6 +1,6 @@
 import React from 'react'
 import "./blog.css"
-import {Link, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import Compensation from "./Compensation";
 import Mis from "./MIS";
 import PoClass from "./PoClass";
