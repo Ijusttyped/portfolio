@@ -2,6 +2,7 @@ import React from 'react'
 import "./header.css"
 import CTA from "./CTA"
 import HeaderSocials from "./HeaderSocials";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
     return (
@@ -17,7 +18,7 @@ const Header = () => {
                 {/*    <img src={ME} alt="me" className={"me__image"}/>*/}
                 {/*</div>*/}
 
-                <a href={"#contact"} className={"scroll__down"}>Scroll Down</a>
+                <Link to={{hash: "#contact"}} className={"scroll__down"}>Scroll Down</Link>
             </div>
         </header>
     )

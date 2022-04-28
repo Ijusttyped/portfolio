@@ -3,7 +3,8 @@ import "./about.css"
 import ME from "../../assets/me-about.png"
 import {FaAward} from "react-icons/fa"
 import {FiUsers} from "react-icons/fi"
-import {VscFolderLibrary} from "react-icons/vsc"
+import {VscFolderLibrary} from "react-icons/vsc";
+import { HashLink as Link } from "react-router-hash-link";
 
 const About = () => {
     return (
@@ -45,7 +46,7 @@ const About = () => {
                         the agile implementation with you. Once the project setup is clear, I dive into the Jupyter notebook
                         swamp and build a stable and sustainable solution out of it.
                     </p>
-                    <a href={"#contact"} className={"btn btn-primary"}>Get in Touch</a>
+                    <Link to={{hash: "#contact"}} className={"btn btn-primary"}>Get in Touch</Link>
 
                 </div>
             </div>

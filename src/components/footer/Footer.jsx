@@ -2,6 +2,7 @@ import React from 'react'
 import "./footer.css"
 import {BsLinkedin} from "react-icons/bs";
 import {FaGithub} from "react-icons/fa";
+import {HashLink as Link} from "react-router-hash-link";
 
 const Footer = () => {
     return (
@@ -9,18 +10,19 @@ const Footer = () => {
             <a href={"/#"} className={"footer__logo"}>MFR</a>
 
             <ul className={"permalinks"}>
-                <li><a href={"/#"}>Home</a></li>
-                <li><a href={"/#about"}>About</a></li>
-                <li><a href={"/#experience"}>Experience</a></li>
+                <li><Link to={{hash: "#"}}>Home</Link></li>
+                <li><Link to={{hash: "#about"}}>About</Link></li>
+                <li><Link to={{hash: "#experience"}}>Experience</Link></li>
                 {/*<li><a href={"#services"}>Services</a></li>*/}
-                <li><a href={"/#portfolio"}>Portfolio</a></li>
+                <li><Link to={{hash: "#portfolio"}}>Portfolio</Link></li>
                 {/*<li><a href={"#testimonials"}>Testimonials</a></li>*/}
-                <li><a href={"/#contact"}>Contact</a></li>
+                <li><Link to={{hash: "#contact"}}>Contact</Link></li>
             </ul>
 
             <div className={"footer__socials"}>
-                <a href={"https://linkedin.com"} target="_blank" rel={"noreferrer"}><BsLinkedin/></a>
-                <a href={"https://github.com"} target="_blank" rel={"noreferrer"}><FaGithub/></a>
+                <a href={"https://www.linkedin.com/in/marcel-fernandez-rosas-1b224b175/"} target="_blank"
+                   rel={"noreferrer"}><BsLinkedin/></a>
+                <a href={"https://github.com/ijusttyped"} target="_blank" rel={"noreferrer"}><FaGithub/></a>
             </div>
 
             <div className={"footer__copyright"}>

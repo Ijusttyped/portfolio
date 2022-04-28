@@ -1,12 +1,11 @@
 import React from 'react'
-// import CV from "../../assets/cv.pdf"
+import { HashLink as Link } from "react-router-hash-link";
 
 const Cta = () => {
     return (
         <div className={"cta"}>
-            {/*<a href={CV} download className={"btn"}>Download CV</a>*/}
-            <a href={"/cv"} className={"btn"}>View CV</a>
-            <a href={"#contact"} className={"btn btn-primary"}>Let's Talk</a>
+            <Link to={"/cv"} className={"btn"}>View CV</Link>
+            <Link to={{hash: "#contact"}} className={"btn btn-primary"}>Let's Talk</Link>
         </div>
     )
 }

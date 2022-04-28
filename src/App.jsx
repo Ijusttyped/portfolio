@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./components/home/Home";
 import CV from "./components/cv/CV";
 import Blog from "./components/blog/Blog";
@@ -9,14 +9,14 @@ const App = () => {
 
     return (
         <>
-            <BrowserRouter>
+            <Router>
                 <Routes>
-                    <Route index element={<Home />}/>
-                    <Route path={"/cv"} element={<CV />}/>
-                    <Route path={"/blog/:blogId"} element={<Blog />}/>
-                    <Route path={"*"} element={<NoMatch />}/>
+                    <Route exact path={"/"} element={<Home />}/>
+                    <Route exact path={"/cv"} element={<CV />}/>
+                    <Route exact path={"/blog/:blogId"} element={<Blog />}/>
+                    <Route exact path={"*"} element={<NoMatch />}/>
                 </Routes>
-            </BrowserRouter>
+            </Router>
         </>
     )
 }
