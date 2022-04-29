@@ -90,12 +90,12 @@
         margin: 0 auto 3rem;
     }
 
-    .about_cards {
+    .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    .about_content {
+    .about__content {
         text-align: center;
     }
 
