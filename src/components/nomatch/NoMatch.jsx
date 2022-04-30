@@ -1,5 +1,6 @@
 import React from 'react'
 import "./nomatch.css"
+import { Link } from "react-router-dom";
 
 const NoMatch = () => {
     return (
@@ -9,7 +10,7 @@ const NoMatch = () => {
                     <h1>Oops!</h1>
                     <h2>404 - The Page can't be found</h2>
                 </div>
-                <a href="/#" className={"btn btn-primary"}>Go TO Homepage</a>
+                <Link to={"/"} className={"btn btn-primary"}>Go to Homepage</Link>
             </div>
         </div>
     )
