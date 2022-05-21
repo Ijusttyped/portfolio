@@ -7,7 +7,7 @@ import {HashLink as Link} from "react-router-hash-link";
 const Footer = () => {
     return (
         <footer>
-            <a className={"footer__logo"}>MFR</a>
+            {/*<text className={"footer__logo"}>MFR</text>*/}
 
             <ul className={"permalinks"}>
                 <li><Link to="/#">Home</Link></li>
