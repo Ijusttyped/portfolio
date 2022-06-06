@@ -11,20 +11,13 @@
 }
 
 :root {
-    /*--color-bg: #0B1320;*/
-    /*--color-bg-variant: #1C3F60;*/
-    /*--color-primary: #B1D4E0;*/
-    /*--color-primary-variant: #AFC1D0;*/
-    /*--color-white: #fff;*/
-    /*--color-light: #c0c5ce;*/
-
-    --color-bg: #222831;
-    --color-bg-variant: #393E46;
-    --color-primary: #00ADB5;
+    --color-bg: #13220F;
+    --color-bg-variant: #436745;
+    --color-primary: #bcce9b;
     --color-primary-variant: #EEEEEE;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
-    --color-green-light: #8fc3c5;
+    --color-green-light: #bcce9b;
 
     --transition: all 400ms ease;
 
@@ -44,7 +37,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     /*background: linear-gradient(to right, var(--color-primary) 0%, var(--color-bg) 100%);*/
-    background: linear-gradient(var(--color-bg) 40%, var(--color-primary));
+    background: linear-gradient(var(--color-bg) 40%, var(--color-bg-variant));
     /*background: var(--color-bg);*/
     color: var(--color-white);
     line-height: 1.7;
@@ -109,7 +102,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: #f8dc90;
     color: var(--color-bg);
     border-color: transparent;
 }

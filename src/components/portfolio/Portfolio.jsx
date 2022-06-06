@@ -2,28 +2,20 @@ import React from 'react'
 import "./portfolio.css"
 import IMG1 from "../../assets/compensation.jpg"
 import IMG2 from "../../assets/segmentation.jpg"
-import IMG3 from "../../assets/sclass.jpg"
-import {HashLink as Link} from "react-router-hash-link";
 
 
 const data = [
     {
         image: IMG1,
         title: "Fair Compensation",
-        github: "https://github.com/ijusttyped",
-        demo: "/tbd" //"/blog/compensation"
+        github: "https://github.com/Ijusttyped/fair-compensation-backend",
+        demo: "https://ijusttyped.github.io/fair-compensation-frontend/" //"/blog/compensation"
     },
     {
         image: IMG2,
         title: "Medical Image Segmentation",
-        github: "https://github.com/ijusttyped",
+        github: "https://github.com/HealthML/active-segmentation",
         demo: "/tbd"  //"/blog/mis"
-    },
-    {
-        image: IMG3,
-        title: "Purchase Order Classification",
-        github: "https://github.com/ijusttyped",
-        demo: "/tbd"  //"/blog/poclass"
     }
 ]
 
@@ -44,7 +36,8 @@ const Portfolio = () => {
                                 <h3>{title}</h3>
                                 <div className={"portfolio__item-cta"}>
                                     <a href={github} className={"btn"} target={"_blank"} rel={"noreferrer"}>Github</a>
-                                    <Link to={demo} className={"btn btn-primary"}>Blogpost</Link>
+                                    <a href={demo} target={"_blank"} rel={"noreferrer"}
+                                       className={"btn btn-primary"}>Demo</a>
                                 </div>
                             </article>
                         )
