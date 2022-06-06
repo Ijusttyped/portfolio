@@ -30,7 +30,7 @@ const Contact = () => {
                     <article className={"contact__option"}>
                         <RiTelegramLine className={"contact__option-icon"} />
                         <h4>Telegram</h4>
-                        <h5>Marcel</h5>
+                        <h5>marcelfe</h5>
                         <a href={"https://t.me/marcelfe"} target={"_blank"} rel={"noreferrer"}>Send a message</a>
                     </article>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import {BsLinkedin} from "react-icons/bs";
-import {FaGithub} from "react-icons/fa";
+import {FaGithub, FaXingSquare} from "react-icons/fa";
 import {HashLink as Link} from "react-router-hash-link";
 
 const Footer = () => {
@@ -22,6 +22,8 @@ const Footer = () => {
             <div className={"footer__socials"}>
                 <a href={"https://www.linkedin.com/in/marcel-fernandez-rosas-1b224b175/"} target="_blank"
                    rel={"noreferrer"}><BsLinkedin/></a>
+                <a href={"https://www.xing.com/profile/Marcel_FernandezRosas/cv"} target={"_blank"}
+                   rel={"noreferrer"}><FaXingSquare/></a>
                 <a href={"https://github.com/ijusttyped"} target="_blank" rel={"noreferrer"}><FaGithub/></a>
             </div>
 
