@@ -5,7 +5,7 @@ const work = [
     {
         "start": "February 2019",
         "end": "present",
-        "position": "Lead Data Science Engineer",
+        "position": "Applications Consultant Lead",
         "responsibility": "Solution enabling and implementation for different enterprises in the areas of artificial intelligence, cloud and reporting",
         "employer": {
             "name": "Capgemini Deutschland GmbH",
@@ -28,7 +28,7 @@ const work = [
         "start": "November 2017",
         "end": "March 2018",
         "position": "Python Developer",
-        "responsibility": "Data analysis and automated data cleansing; Process management and process automation; Project management, geolocation controlling",
+        "responsibility": "Data analysis and automated data cleansing; Process management and process automation",
         "employer": {
             "name": "Fleetpool GmbH",
             "url": "https://fleetpool.de/"
